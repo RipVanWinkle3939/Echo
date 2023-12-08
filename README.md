@@ -16,7 +16,7 @@
 ⚪声音合成
 我们使用Max进行osc信号的接收以及预处理，将Serum合成器作为VST插件植入Patcher，便可使用实时接收到的osc信号进行声音的合成。
 
-![原理如图]([osc数据到合成器.png](https://github.com/RipVanWinkle3939/Echo/blob/6b48955a13b446477afd68f2fa9575a8e0317372/%E5%9B%BE%E7%89%87/osc%E6%95%B0%E6%8D%AE%E5%88%B0%E5%90%88%E6%88%90%E5%99%A8.png)https://github.com/RipVanWinkle3939/Echo/blob/6b48955a13b446477afd68f2fa9575a8e0317372/%E5%9B%BE%E7%89%87/osc%E6%95%B0%E6%8D%AE%E5%88%B0%E5%90%88%E6%88%90%E5%99%A8.png)
+![原理如图](图片/osc数据到合成器.png)
 
 ###### ——————2023/12/8——————
 今天我们试图解决
