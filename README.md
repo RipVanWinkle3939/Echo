@@ -35,6 +35,8 @@
 针对该需求，需要首先捕捉人体动作，再实时发送给接收器（Max）。捕捉人体动作可以使用[Unity AR Foundation中的Body Tracking](https://github.com/Unity-Technologies/arfoundation-samples#body-tracking)功能，动作信息的发送则需要在骨骼上使用osc信号发送插件（这里我们使用的是[OSC Jack](https://github.com/keijiro/OscJack)）
 
 效果如下。
+![BodyTracking](视频/BodyTracking.gif)
+
 
 
 ###### ——————2023/12/9——————
