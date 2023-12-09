@@ -31,13 +31,11 @@
 今天我们试图解决
 
  1. 实时捕捉使用者的肢体动作信息并以osc信号形式发送。（已解决）
+ 2. 用打包记录好的osc信号（见2023/12/8）传给unity来复现使用者的肢体动作，以便于视觉与声音设计。（已解决）
 
-针对该需求，需要首先捕捉人体动作，再实时发送给接收器（Max）。捕捉人体动作可以使用[Unity AR Foundation中的Body Tracking](https://github.com/Unity-Technologies/arfoundation-samples#body-tracking)功能，动作信息的发送则需要在骨骼上使用osc信号发送插件（这里我们使用的是[OSC Jack](https://github.com/keijiro/OscJack)）
+针对需求1，需要首先捕捉人体动作，再实时发送给接收器（Max）。捕捉人体动作可以使用[Unity AR Foundation中的Body Tracking](https://github.com/Unity-Technologies/arfoundation-samples#body-tracking)功能，动作信息的发送则需要在骨骼上使用osc信号发送插件（这里我们使用的是[OSC Jack](https://github.com/keijiro/OscJack)）
 
 效果如下。
+![BodyTracking](%E8%A7%86%E9%A2%91/BodyTracking.gif)
 
-![BodyTracking](视频/BodyTracking.gif)
-
-
-
-
+需求2只需用Max发送打包好的osc信号（见2023/12/8），再在Unity中接收并赋值就可以实现osc信号的可视化，达成肢体动作的复现。
