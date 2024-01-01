@@ -47,3 +47,6 @@
 新增拍手和甩手的功能
 
 ![line3](%E8%A7%86%E9%A2%91/%E6%95%88%E6%9E%9C/line3.gif)
+
+###### ——————2023/12/30——————
+多人模式，由holokit-multiplayer-ar-bolierplates解决世界坐标同步的问题[链接](https://github.com/holoi/holokit-multiplayer-ar-boilerplates)
