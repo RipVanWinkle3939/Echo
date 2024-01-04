@@ -50,3 +50,4 @@
 
 ###### ——————2023/12/30——————
 多人模式，由holokit-multiplayer-ar-bolierplates解决世界坐标同步的问题[链接](https://github.com/holoi/holokit-multiplayer-ar-boilerplates)
+在此基础上，编写Netcode，用于传输肢体数据。
